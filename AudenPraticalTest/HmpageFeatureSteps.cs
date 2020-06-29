@@ -52,8 +52,8 @@ namespace AudenPraticalTest
         [Then(@"i should see the The min as (.*) and Max as (.*)")]
         public void ThenIShouldSeeTheTheMinAsAndMaxAs(int min, int max)
         {
-            homepage hmpage = new homepage();
-            hmpage.CheckMinandMaxAmount(min);
+          //  homepage hmpage = new homepage();
+          //  hmpage.CheckMinandMaxAmount(min);
 
            
         }

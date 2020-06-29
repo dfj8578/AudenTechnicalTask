@@ -91,7 +91,7 @@ namespace AudenPraticalTest
 
         public void CheckMinandMaxAmount(int MinAmount, int MaxAmount)
         {
-          var Min_Max =PropertiesCollection.driver.FindElement(By.XPath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[1]/label[1]/input[1]")).Text;
+          //var Min_Max =PropertiesCollection.driver.FindElement(By.XPath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[1]/label[1]/input[1]")).Text;
            // Assert.AreEqual(Min_Max, MinAmount, MaxAmount);
         }
 
